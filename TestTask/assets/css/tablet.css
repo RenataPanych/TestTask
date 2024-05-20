@@ -1,0 +1,58 @@
+
+/* Медіа-запит для пристроїв з середніми розмірами екрану */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card,
+    .card-2,
+    .card-3,
+    .card-4 {
+        width: 45%; 
+        max-width: 250px;
+        max-height: 380px; 
+        margin: 0 auto; 
+        margin-bottom: 20px; 
+    }
+
+    .info {
+        padding: 20px; 
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    a {
+        font-size: 15px; 
+        margin-top: 12px; 
+    }
+
+    a.electrical-link {
+        margin: -40px 20px;
+    }
+
+    a.doors-link, a.hanging-link {
+        margin: -5px 20px;
+    }
+
+    a.appliance-link {
+        margin: -5px 20px;
+    }
+
+    a.smart-link {
+        margin: -75px 20px;
+    }
+
+    a.outdoor-link {
+        margin: -40px 20px;
+    }
+
+    svg.icon {
+        margin-left: 45px;
+        margin-top: 5px;
+        height: 70px;
+    }
+}

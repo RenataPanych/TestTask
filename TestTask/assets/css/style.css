@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    border: 2px solid #179D2E;
+}
+
+.card-2 {
+    border: 2px solid #0177B8;
+}
+
+.card-3 {
+    border: 2px solid #F5AF23;
+}
+
+.card-4 {
+    border: 2px solid #F02E2C;
+}
+
+.card.block,
+.card-2.block,
+.card-3.block {
+    height: 527px;
+    width: 424px;
+padding: 24px 0px 0px 0px;
+}
+
+.card-4.block-1,
+.card.block-1,
+.card-2.block-1 {
+    width: 424px;
+height: 545px;
+padding: 24px 0px 0px 0px;
+} 
+
+.card-3.block-2,
+.card-4.block-2,
+.card.block-2 {
+    width: 424px;
+height: 587px;
+padding: 24px 0px 0px 0px;
+} 
+
+.row {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-items: center; 
+gap: 24px;
+
+}
+
+h1 {
+    font-size: 36px;
+}
+
+li {
+    font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+
+}
+
+a {
+    font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+display: flex;
+justify-content: flex-end;
+color: #2D2D2D;
+
+}
+
+.info {
+    padding: 30px;
+}
+
+svg.icon {
+    margin-left: 170px;
+    margin-top: 5px;
+}
+
+a.plumbing-link,
+a.painting-link,
+a.furniture-link {
+    margin: 0 20px;
+}
+
+a.electrical-link {
+    margin: 20px;
+}
+
+a.doors-link,
+a.hanging-link {
+    margin: 55px 20px;
+}
+
+a.appliance-link {
+    margin: 95px 20px;
+}
+
+a.smart-link {
+    margin: -10px 20px;
+}
+
+a.outdoor-link {
+    margin: 60px 20px;
+}
