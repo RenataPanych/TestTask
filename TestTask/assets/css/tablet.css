@@ -12,6 +12,22 @@
         margin-bottom: 20px; 
     }
 
+    .card-3.block-2,
+    .card-4.block-2,
+    .card.block-2 {
+        max-width: 250px;
+        max-height: 430px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .info {
         padding: 20px; 
     }
@@ -39,15 +55,15 @@
     }
 
     a.appliance-link {
-        margin: -5px 20px;
+        margin: 45px 20px;
     }
 
     a.smart-link {
-        margin: -75px 20px;
+        margin: -25px 20px;
     }
 
     a.outdoor-link {
-        margin: -40px 20px;
+        margin: 10px 20px;
     }
 
     svg.icon {
